@@ -23,7 +23,7 @@ const NavLinks = ({ handleClick }) => (
 );
 
 const Sidebar = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [ mobileMenuOpen, setMobileMenuOpen ] = useState(false);
 
   return (
   <>
